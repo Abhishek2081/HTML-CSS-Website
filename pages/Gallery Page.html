@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home of SuperCars</title>
+	<link rel="stylesheet" href="../css/gallery style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header class="site-header">
+		<nav>
+			<div class="logo">
+				<h1>HOME OF SUPERCARS</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="../Home Page.html">HOME</a></li>
+					<li><a href="Brand Page.html">BRANDS</a></li>
+					<li><a href="#footer">ABOUT US</a></li>
+					<li><a href="#footer">CONTACT US</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="slider">
+		<span id="slider-image-1"></span>
+		<span id="slider-image-2"></span>
+		<span id="slider-image-3"></span>
+		<span id="slider-image-4"></span>
+		<span id="slider-image-5"></span>
+		<div class="image-container">
+			<a href="astonmartin.html#astonmartin-gallery"><img src="../images/aston.jpg" class="slider-image"></a>
+			<a href="lamborghini.html#lamborghini-gallery"><img src="../images/lambo.jpg" class="slider-image"></a>
+			<a href="mclaren.html#mclaren-gallery"><img src="../images/mclaren.jpg" class="slider-image"></a>
+			<a href="koenigsegg.html#koenigsegg-gallery"><img src="../images/koenigsegg.jpg" class="slider-image"></a>
+			<a href="bmw.html#bmw-gallery"><img src="../images/bmw.jpg" class="slider-image"></a>
+		</div>
+		<div class="button-container">
+			<a href="#slider-image-1" class="slider-button"></a>
+			<a href="#slider-image-2" class="slider-button"></a>
+			<a href="#slider-image-3" class="slider-button"></a>
+			<a href="#slider-image-4" class="slider-button"></a>
+			<a href="#slider-image-5" class="slider-button"></a>
+		</div>
+	</div>
+
+	<div class="all-brands" id="official-gallery">
+		<div class="brand-header">
+			<h1>Gallery  >>  Select Your Brand</h1>
+			<hr>
+			<br>
+		</div>
+		<div class="brand-name">
+			<div class="car-1">
+				<a href="astonmartin car page.html"><img src="../images/astonmartin.png"></a>
+			</div>
+		</div>
+		<div class="brand-name">
+			<div class="car-2">
+				<a href="bmw.html#bmw-gallery"><img src="../images/bmws.png"></a>
+			</div>
+		</div>
+		<div class="brand-name">
+			<div class="car-3">
+				<a href="koenigsegg.html#koenigsegg-gallery"><img src="../images/koenigseggs.png"></a>
+			</div>
+		</div>
+		<div class="brand-name">
+			<div class="car-4">
+				<a href="lamborghini.html#lamborghini-gallery"><img src="../images/lamborghini.png"></a>
+			</div>
+		</div>
+		<div class="brand-name">
+			<div class="car-5">
+				<a href="mclaren car page.html"><img src="../images/mclarens.png"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer" id="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h1 class="logo-text"><span>HomeOf</span>SuperCars</h1>
+				<p>
+					HomeOfSuperCars is a Modern Website conceived for the purpose of aquiring Knowlegde about SuperCars, knowing its Functionalities and Features, Methods of Purchase etc. or you may say this is Complete Home of SuperCars. 
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i> &nbsp; +91 999-888-7777</span>
+					<span><i class="fas fa-envelope"></i> &nbsp; <a href="mailto:info@supercars.com" target="_blank">info@supercars.com</a></span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<br>
+				<ul>
+					<a href="Copyright Page.html#disclaimer"><li>Disclaimer</li></a><br>
+					<a href="Copyright Page.html#advertising"><li>Advertising</li></a><br>
+					<a href="#official-gallery"><li>Gallery</li></a><br>
+					<a href="Copyright Page.html#copyright-notice"><li>Copyright Notice</li></a><br>
+					<a href="Copyright Page.html#privacy-policy"><li>Privacy Policy</li></a><br>
+					<a href="Copyright Page.html#terms-of-use"><li>Terms of Use</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Contact Us</h2>
+				<form name="contact-form">
+					<input type="text" name="text" id="name-value" class="text-input contact-input" placeholder="Your Name..." onchange="validateText()">
+					<input type="tel" name="phone" id="phone-value" class="text-input contact-input" placeholder="Your Mobile No... (9876543210/+022 1234 5678)" pattern="+[0-9]{2}-[0-9]{5}-[0-9]{5}" required onchange="validatePhone()">
+					<input type="email" name="email" id="email-value" class="text-input contact-input" placeholder="Your Email Address..." onchange="validateEmail()">
+					<textarea name="message" id="text-area-value" class="text-input contact-input" placeholder="Your Message..."></textarea>
+					<button type="button" id="open-popup-btn" class="btn contact-btn">
+						<i class="fas fa-envelope"> &nbsp; </i>
+						Send
+					</button>
+				</form>
+				<div class="popup center">
+					<div class="icon">
+						<i class="fa fa-check"></i>
+					</div>
+					<div class="title">
+						Success!!
+					</div>
+					<div class="description">
+						Thank You For Contacting Us!!!
+						We'll be Replying you Right Back
+						Soon In Respect for Your Concern. 
+					</div>
+					<div class="dismiss-btn">
+						<button id="dismiss-popup-btn">
+							Dismiss
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			©homeofsupercars.com | Designed by Abhishek Agashe
+		</div>
+	</div>
+
+	<script src="../javascript/contact_script.js"></script>
+</body>
+</html>

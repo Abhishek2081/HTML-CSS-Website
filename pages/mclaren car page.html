@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home of SuperCars</title>
+	<link rel="stylesheet" href="../css/mclaren car style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header class="site-header">
+		<nav>
+			<div class="logo">
+				<h1>HOME OF SUPERCARS</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="../Home Page.html">HOME</a></li>
+					<li><a href="Brand Page.html">BRANDS</a></li>
+					<li><a href="#footer">ABOUT US</a></li>
+					<li><a href="#footer">CONTACT US</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="context"><br><br>
+		<img src="../images/mclarens.png"><br><br>
+		<h1>MCLAREN</h1>
+		<hr>
+		<main>
+			<div class="leftside">
+				<img src="../images/mclaren 1.jpg">
+				<img src="../images/mclarens 1.jpg">
+			</div>
+			<div class="rightside">
+				<a href = "mclaren.html" id="bodytext">
+					2019 McLaren Senna. Successor To The P1, Tribute To A Legend
+				</a>
+				<p>
+					When it was first unveiled in late 2017, the Senna proclaimed itself as the ultimate street-legal McLaren. We can go back as early as the 1990s when tracing the Senna’s lineage, with the McLaren F1 pioneering the first production car with full carbon-fibre construction. More than two decades later, its predecessor – the McLaren P1 – gave the British automaker a refreshed sense of supremacy with its redesigned flagship car ...
+					<a href="mclaren.html">Read More</a>
+				</p>
+				<a href = "mclarens.html" id="bodytext1">
+					2017 McLaren 720S. McLaren latest supercar is damn near perfect
+				</a>
+				<p>
+					The unveiling of McLaren’s new supercar confirms both the 720S name and 720PS horsepower of the first model in the second-generation McLaren Super Series, details which have been teased online in recent months. The Surrey, England-based manufacturer of luxury, high-performance sports and supercars, has issued a series of six press releases since January, each accompanied by an image or film containing a numerical reference – and it can now be revealed that 1 x 2 x 3 x 4 x 5 x 6 equals 720 ...
+					<a href="mclarens.html">Read More</a>
+				</p>
+			</div>
+		</main>
+	</div>
+
+	<div class="footer" id="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h1 class="logo-text"><span>HomeOf</span>SuperCars</h1>
+				<p>
+					HomeOfSuperCars is a Modern Website conceived for the purpose of aquiring Knowlegde about SuperCars, knowing its Functionalities and Features, Methods of Purchase etd. or you may say this is Complete Home of SuperCars. 
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i> &nbsp; +91 999-888-7777</span>
+					<span><i class="fas fa-envelope"></i> &nbsp; <a href="mailto:info@supercars.com" target="_blank">info@supercars.com</a></span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<br>
+				<ul>
+					<a href="Copyright Page.html#disclaimer"><li>Disclaimer</li></a><br>
+					<a href="Copyright Page.html#advertising"><li>Advertising</li></a><br>
+					<a href="Gallery Page.html"><li>Gallery</li></a><br>
+					<a href="Copyright Page.html#copyright-notice"><li>Copyright Notice</li></a><br>
+					<a href="Copyright Page.html#privacy-policy"><li>Privacy Policy</li></a><br>
+					<a href="Copyright Page.html#terms-of-use"><li>Terms of Use</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Contact Us</h2>
+				<form name="contact-form">
+					<input type="text" name="text" id="name-value" class="text-input contact-input" placeholder="Your Name..." onchange="validateText()">
+					<input type="tel" name="phone" id="phone-value" class="text-input contact-input" placeholder="Your Mobile No... (9876543210/+022 1234 5678)" pattern="+[0-9]{2}-[0-9]{5}-[0-9]{5}" required onchange="validatePhone()">
+					<input type="email" name="email" id="email-value" class="text-input contact-input" placeholder="Your Email Address..." onchange="validateEmail()">
+					<textarea name="message" id="text-area-value" class="text-input contact-input" placeholder="Your Message..."></textarea>
+					<button type="button" id="open-popup-btn" class="btn contact-btn">
+						<i class="fas fa-envelope"> &nbsp; </i>
+						Send
+					</button>
+				</form>
+				<div class="popup center">
+					<div class="icon">
+						<i class="fa fa-check"></i>
+					</div>
+					<div class="title">
+						Success!!
+					</div>
+					<div class="description">
+						Thank You For Contacting Us!!!
+						We'll be Replying you Right Back
+						Soon In Respect for Your Concern. 
+					</div>
+					<div class="dismiss-btn">
+						<button id="dismiss-popup-btn">
+							Dismiss
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			©homeofsupercars.com | Designed by Abhishek Agashe
+		</div>
+	</div>
+	
+	<script src="../javascript/contact_script.js"></script>
+</body>
+</html>
