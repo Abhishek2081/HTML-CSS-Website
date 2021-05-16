@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home of SuperCars</title>
+	<link rel="stylesheet" href="css/astonm car style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header class="site-header">
+		<nav>
+			<div class="logo">
+				<h1>HOME OF SUPERCARS</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="Home Page.html">HOME</a></li>
+					<li><a href="Brand Page.html">BRANDS</a></li>
+					<li><a href="#footer">ABOUT US</a></li>
+					<li><a href="#footer">CONTACT US</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="context"><br><br>
+		<img src="images/astonmartin.png"><br><br>
+		<h1>ASTON MARTIN</h1>
+		<hr>
+		<main>
+			<div class="leftside">
+				<img src="images/aston.jpg">
+				<img src="images/astonm 1.jpg">
+			</div>
+			<div class="rightside">
+				<a href = "astonmartin.html" id="bodytext">
+					2019 Aston Martin DBS Superleggera – Britain’s Ultimate Grand Tourer
+				</a>
+				<p>
+					The new Aston Martin DBS Superleggera bears a name that pays tribute to the marque’s celebrity status, while boldly articulating the standards of which the car is measured. ‘DBS’ was the model name bestowed upon 2 of James Bond’s vehicles of choice from previous films, while the Superleggera moniker when translated from Italian, suggests a car (which is based on the current DB11 AMR) that is the beneficiary of a generous serving of weight reduction ...
+					<a href="astonmartin.html">Read More</a>
+				</p>
+				<a href = "astonvantage.html" id="bodytext1">
+					Aston Martin Vantage GT8
+				</a>
+				<p>
+					The Aston Martin Vantage GT8 is a limited edition car. Only 150 cars came out of its production line which are already sold out. This method of limiting the numbers is Aston Martin’s way of increasing the residual. This will make their customers to always get their cars regardless of what they want to drive and how expensive they can be. But Aston Martin don’t really need this method of thinking because they did just a fine job with the GT8 ...
+					<a href="astonvantage.html">Read More</a>
+				</p>
+			</div>
+		</main>
+	</div>
+
+	<div class="footer" id="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h1 class="logo-text"><span>HomeOf</span>SuperCars</h1>
+				<p>
+					HomeOfSuperCars is a Modern Website conceived for the purpose of aquiring Knowlegde about SuperCars, knowing its Functionalities and Features, Methods of Purchase etd. or you may say this is Complete Home of SuperCars. 
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i> &nbsp; +91 999-888-7777</span>
+					<span><i class="fas fa-envelope"></i> &nbsp; <a href="mailto:info@supercars.com" target="_blank">info@supercars.com</a></span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<br>
+				<ul>
+					<a href="Copyright Page.html#disclaimer"><li>Disclaimer</li></a><br>
+					<a href="Copyright Page.html#advertising"><li>Advertising</li></a><br>
+					<a href="Gallery Page.html"><li>Gallery</li></a><br>
+					<a href="Copyright Page.html#copyright-notice"><li>Copyright Notice</li></a><br>
+					<a href="Copyright Page.html#privacy-policy"><li>Privacy Policy</li></a><br>
+					<a href="Copyright Page.html#terms-of-use"><li>Terms of Use</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Contact Us</h2>
+				<form name="contact-form">
+					<input type="text" name="text" id="name-value" class="text-input contact-input" placeholder="Your Name..." onchange="validateText()">
+					<input type="tel" name="phone" id="phone-value" class="text-input contact-input" placeholder="Your Mobile No... (9876543210/+022 1234 5678)" pattern="+[0-9]{2}-[0-9]{5}-[0-9]{5}" required onchange="validatePhone()">
+					<input type="email" name="email" id="email-value" class="text-input contact-input" placeholder="Your Email Address..." onchange="validateEmail()">
+					<textarea name="message" id="text-area-value" class="text-input contact-input" placeholder="Your Message..."></textarea>
+					<button type="button" id="open-popup-btn" class="btn contact-btn">
+						<i class="fas fa-envelope"> &nbsp; </i>
+						Send
+					</button>
+				</form>
+				<div class="popup center">
+					<div class="icon">
+						<i class="fa fa-check"></i>
+					</div>
+					<div class="title">
+						Success!!
+					</div>
+					<div class="description">
+						Thank You For Contacting Us!!!
+						We'll be Replying you Right Back
+						Soon In Respect for Your Concern. 
+					</div>
+					<div class="dismiss-btn">
+						<button id="dismiss-popup-btn">
+							Dismiss
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			©homeofsupercars.com | Designed by Abhishek Agashe
+		</div>
+	</div>
+	
+	<script src="javascript/contact_script.js"></script>
+</body>
+</html>
