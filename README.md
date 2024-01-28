@@ -8,4 +8,4 @@ for design and Event Handling of website respectively.The Remaining Pages are pr
 as well. Various tags,functions,external links and scripts and css references and properties are used at appropriate places to give 
 a stylish feel to the website, Do Check it out.
 
-**Note: You must have an Internet Connection in order to display all contents properly as links are used for external fonts,icons,etc.**
+
